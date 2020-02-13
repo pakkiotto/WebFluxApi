@@ -21,6 +21,7 @@ dependencies {
 	compileOnly('org.projectlombok:lombok')
 	testImplementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 	testImplementation 'io.projectreactor:reactor-test'
+	annotationProcessor 'org.projectlombok:lombok:1.18.4'
 }
 
 test {
